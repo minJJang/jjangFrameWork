@@ -10,9 +10,15 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="staticArray.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="staticArray.h">
       <Filter>source</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,2 +1,10 @@
 *.suo
 source/main/main.vcxproj.user
+*.log
+*.tlog
+*.pch
+intermediate/Debug/core/staticArray.obj
+*.obj
+*.idb
+*.pdb
+*.ilk

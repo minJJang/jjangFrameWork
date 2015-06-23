@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "main.h"
 
+#include "staticArray.h"
+
 HINSTANCE hInst;
 
 ATOM				MyRegisterClass(HINSTANCE hInstance);
@@ -17,6 +19,8 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR
 	if( !InitInstance( hInstance, nCmdShow ) )
 		return FALSE;
 
+	staticArray<int> a(20);
+	
 	bool bEnd = false;
 	while (!bEnd)
 	{
