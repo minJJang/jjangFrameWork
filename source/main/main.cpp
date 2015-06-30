@@ -3,24 +3,29 @@
 
 #include "staticArray.h"
 
+#include "../engine/stdafx.h"
+#include "../core/stdafx.h"
+
 HINSTANCE hInst;
 
 ATOM				MyRegisterClass(HINSTANCE hInstance);
 BOOL				InitInstance(HINSTANCE, int);
 LRESULT CALLBACK	WndProc(HWND, UINT, WPARAM, LPARAM);
 
+
 int APIENTRY _tWinMain(_In_ HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
 {
+	jjang* jjangFrameWork = new jjang();
+	jjangFrameWork->init();
+	//jjangFrameWork->createWindow();
+
 	MSG msg;
 	ZeroMemory(&msg, sizeof(MSG));
-	
-	MyRegisterClass(hInstance);
 
-	if( !InitInstance( hInstance, nCmdShow ) )
+	MyRegisterClass(hInstance);
+	if (!InitInstance(hInstance, nCmdShow))
 		return FALSE;
 
-	staticArray<int> a(20);
-	
 	bool bEnd = false;
 	while (!bEnd)
 	{

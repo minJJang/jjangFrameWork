@@ -1,3 +1,4 @@
+
 #pragma once
 
 #define WIN32_LEAN_AND_MEAN
@@ -8,6 +9,11 @@
 #include <list>
 #include <map>
 
-#include "refCount.h"
-#include "resource.h"
-#include "staticArray.h"
+#include <d3d9.h>
+
+
+#include "..\core\stdafx.h"
+
+#include "dx9Renderer.h"
+#include "window.h"
+#include "jjang.h"
