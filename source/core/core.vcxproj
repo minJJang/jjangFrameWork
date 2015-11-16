@@ -73,12 +73,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="classTypeEnum.h" />
+    <ClInclude Include="object.h" />
     <ClInclude Include="refCount.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="staticArray.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="object.cpp" />
     <ClCompile Include="resource.cpp" />
     <ClCompile Include="staticArray.cpp" />
     <ClCompile Include="stdafx.cpp">

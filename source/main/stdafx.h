@@ -7,12 +7,13 @@
 
 #include <stdlib.h>
 #include <malloc.h>
-#include <memory.h>
+
 #include <tchar.h>
 
 //directx 9
 #include <d3d9.h>
 
+#include <memory>
 #include <vector>
 #include <list>
 #include <map>

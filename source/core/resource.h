@@ -2,7 +2,7 @@
 
 #include "refCount.h"
 
-class resource : public refCount
+class resource
 {
 public:
 	resource();

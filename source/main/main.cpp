@@ -13,12 +13,25 @@ BOOL				InitInstance(HINSTANCE, int);
 LRESULT CALLBACK	WndProc(HWND, UINT, WPARAM, LPARAM);
 
 
+class testCls : public object
+{
+public:
+	int getTest()
+	{
+		return 20;
+	}
+};
+
 int APIENTRY _tWinMain(_In_ HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
 {
 	jjang* jjangFrameWork = new jjang();
 	jjangFrameWork->init();
 	//jjangFrameWork->createWindow();
+	
+	testCls* pTest = new testCls;
+	SP<testCls> sp(pTest);
 
+	
 	MSG msg;
 	ZeroMemory(&msg, sizeof(MSG));
 

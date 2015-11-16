@@ -8,6 +8,9 @@
 #include <list>
 #include <map>
 
+
+#include "classTypeEnum.h"
+#include "object.h"
 #include "refCount.h"
 #include "resource.h"
 #include "staticArray.h"

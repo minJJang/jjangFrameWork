@@ -19,6 +19,9 @@
     <ClCompile Include="resource.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -31,6 +34,12 @@
       <Filter>source</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="classTypeEnum.h">
       <Filter>source</Filter>
     </ClInclude>
   </ItemGroup>
