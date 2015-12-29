@@ -8,3 +8,6 @@ intermediate/Debug/core/staticArray.obj
 *.idb
 *.pdb
 *.ilk
+*.sdf
+source/ipch/
+*.opensdf
