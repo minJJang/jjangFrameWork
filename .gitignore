@@ -10,4 +10,7 @@ intermediate/Debug/core/staticArray.obj
 *.ilk
 *.sdf
 source/ipch/
+source/jjangFrameWork.sdf
+source/UpgradeLog.htm
+system/
 *.opensdf
