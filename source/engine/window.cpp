@@ -10,3 +10,8 @@ window::~window()
 {
 
 }
+
+HRESULT window::onInit()
+{
+	return S_OK;
+}
