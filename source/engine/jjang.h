@@ -12,6 +12,5 @@ public:
 	HRESULT createRenderer();
 
 private:
-	window* _window;
-	dx9Renderer* _dx9Renderer;
+	//window* _window;
 };

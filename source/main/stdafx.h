@@ -4,14 +4,10 @@
 
 #include <windows.h>
 
-
 #include <stdlib.h>
 #include <malloc.h>
 
 #include <tchar.h>
-
-//directx 9
-#include <d3d9.h>
 
 #include <memory>
 #include <vector>

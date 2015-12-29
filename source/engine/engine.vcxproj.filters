@@ -10,13 +10,22 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="dx9Renderer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="jjang.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="videoResource.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="staticAllocatorManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -24,13 +33,31 @@
     <ClInclude Include="stdafx.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="dx9Renderer.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
     <ClInclude Include="jjang.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="window.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="videoResource.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="staticallocatormanager.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="refCount.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="componentName.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

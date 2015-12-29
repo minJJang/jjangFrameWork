@@ -14,7 +14,7 @@ jjang::~jjang()
 
 HRESULT jjang::init()
 {
-	_window = new window();
+	//_window = new window();
 	return E_FAIL;
 }
 

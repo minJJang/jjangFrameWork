@@ -1,10 +1,7 @@
 #include "stdafx.h"
 #include "main.h"
 
-#include "staticArray.h"
-
 #include "../engine/stdafx.h"
-#include "../core/stdafx.h"
 
 HINSTANCE hInst;
 
@@ -24,15 +21,7 @@ public:
 
 int APIENTRY _tWinMain(_In_ HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)
 {
-	jjang* jjangFrameWork = new jjang();
-	jjangFrameWork->init();
-	//jjangFrameWork->createWindow();
-	
-	testCls* pTest = new testCls;
-	SP<testCls> sp(pTest);
-
-	
-	MSG msg;
+	tagMSG msg;
 	ZeroMemory(&msg, sizeof(MSG));
 
 	MyRegisterClass(hInstance);

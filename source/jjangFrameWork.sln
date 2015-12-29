@@ -1,20 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "main", "main\main.vcxproj", "{4D7D05AA-612F-499D-A532-B2776525B179}"
 	ProjectSection(ProjectDependencies) = postProject
 		{69C06BD3-08FE-4523-A1F3-2BE979A92ADE} = {69C06BD3-08FE-4523-A1F3-2BE979A92ADE}
-		{36CCB5E1-5E29-48D3-95DA-8CDD04F1548C} = {36CCB5E1-5E29-48D3-95DA-8CDD04F1548C}
 	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "core\core.vcxproj", "{36CCB5E1-5E29-48D3-95DA-8CDD04F1548C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "engine", "engine\engine.vcxproj", "{69C06BD3-08FE-4523-A1F3-2BE979A92ADE}"
-	ProjectSection(ProjectDependencies) = postProject
-		{36CCB5E1-5E29-48D3-95DA-8CDD04F1548C} = {36CCB5E1-5E29-48D3-95DA-8CDD04F1548C}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +20,6 @@ Global
 		{4D7D05AA-612F-499D-A532-B2776525B179}.Debug|Win32.Build.0 = Debug|Win32
 		{4D7D05AA-612F-499D-A532-B2776525B179}.Release|Win32.ActiveCfg = Release|Win32
 		{4D7D05AA-612F-499D-A532-B2776525B179}.Release|Win32.Build.0 = Release|Win32
-		{36CCB5E1-5E29-48D3-95DA-8CDD04F1548C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{36CCB5E1-5E29-48D3-95DA-8CDD04F1548C}.Debug|Win32.Build.0 = Debug|Win32
-		{36CCB5E1-5E29-48D3-95DA-8CDD04F1548C}.Release|Win32.ActiveCfg = Release|Win32
-		{36CCB5E1-5E29-48D3-95DA-8CDD04F1548C}.Release|Win32.Build.0 = Release|Win32
 		{69C06BD3-08FE-4523-A1F3-2BE979A92ADE}.Debug|Win32.ActiveCfg = Debug|Win32
 		{69C06BD3-08FE-4523-A1F3-2BE979A92ADE}.Debug|Win32.Build.0 = Debug|Win32
 		{69C06BD3-08FE-4523-A1F3-2BE979A92ADE}.Release|Win32.ActiveCfg = Release|Win32
