@@ -6,12 +6,14 @@ public:
 	window();
 	~window();
 
-	HRESULT onInit();
-	
-private:
-	HWND hWnd;
-	HINSTANCE hInstance;
+public:
+	HRESULT init(unsigned int x, unsigned int y, std::wstring);
 
-	UINT _width;
-	UINT _height;
+public:
+	HRESULT changeSize(unsigned int wid, unsigned int hei);
+	HRESULT changeFocus(bool bFocus);
+
+private:
+	HWND _hWnd;
+	HINSTANCE _hInstance;
 };
