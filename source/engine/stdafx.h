@@ -39,11 +39,9 @@
 #include "object.h"
 #include "component.h"
 #include "gameObject.h"
-#include "resource.h"
 #include "videoResource.h"
 
 #include "vertexInputLayoutManager.h"
-#include "vertexBuffer.h"
 
 
 #include "app.h"

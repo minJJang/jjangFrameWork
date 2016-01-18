@@ -18,6 +18,7 @@
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="vertexResource.cpp" />
     <ClCompile Include="videoResource.cpp" />
     <ClCompile Include="window.cpp" />
   </ItemGroup>
@@ -30,6 +31,7 @@
     <ClInclude Include="refCount.h" />
     <ClInclude Include="staticallocatormanager.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="vertexResource.h" />
     <ClInclude Include="videoResource.h" />
     <ClInclude Include="window.h" />
   </ItemGroup>

@@ -2,7 +2,7 @@
 
 class vertexBuffer : public videoResource
 {
-	declTypeName(vertexBuffer)
+//	declTypeName(vertexBuffer)
 public:
 	vertexBuffer();
 	virtual ~vertexBuffer();

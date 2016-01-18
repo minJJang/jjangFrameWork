@@ -12,6 +12,6 @@ enum typeName
 	tnMacro(resource)
 	tnMacro(object)
 	tnMacro(videoResource)
-	tnMacro(vertexBuffer)
+	tnMacro(vertexResource)
 	tnMacro(gameObject)
 };

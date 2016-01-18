@@ -1,9 +1,13 @@
 #pragma once
 
-class videoResource : public resource
+class videoResource : public object
 {
 	declTypeName(videoResource)
 public:
 	videoResource();
-	~videoResource();
+	virtual ~videoResource();
+
+	virtual HRESULT createResource() = 0;
+	virtual HRESULT releaseResource() = 0;
+	virtual void* lock() = 0;
 };
